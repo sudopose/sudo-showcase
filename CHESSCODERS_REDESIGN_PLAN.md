@@ -353,42 +353,204 @@ Deployment: Vercel
 
 ## 🎬 Asset Requirements
 
-### Images
-- [ ] Hero background texture (subtle noise/grid)
-- [ ] World map vector (client locations visualization)
-- [ ] Project screenshots (minimum 10 projects, high-res)
-- [ ] Project mockups in devices (laptop, phone, tablet)
-- [ ] Team member photos (14 photos, consistent style)
-- [ ] Client logos (SVG preferred, minimum 10)
-- [ ] Partner logos (SVG preferred, minimum 5)
-- [ ] Testimonial client photos
-- [ ] Office/ workspace photos (optional)
+### ⚠️ CRITICAL: Assets YOU MUST Provide
+These assets are company-specific and cannot be obtained or created without your input.
 
-### 3D Models
-- [ ] Chess King (GLTF/GLB, gold material)
-- [ ] Chess Queen (GLTF/GLB, white material)
-- [ ] Chess Knight (GLTF/GLB, gold material)
-- [ ] Optional: Abstract geometric shapes
-- [ ] Optional: Low-poly environment elements
+#### Brand Identity
+- [ ] **Chess Coders Logo** (SVG, multiple variations: full color, monochrome, dark background)
+- [ ] **Logo mark/icon** (SVG, simplified version for small sizes)
+- [ ] **Brand guidelines** (if available: exact colors, font usage, spacing rules)
+- [ ] **Favicon set** (PNG/ICO, multiple sizes: 16x16, 32x32, 180x180, 192x192, 512x512)
 
-### Icons
-- [ ] Service icons (6 custom SVGs)
-- [ ] Process/methodology icons (6 SVGs)
-- [ ] Social media icons (styled set)
-- [ ] Navigation icons
-- [ ] Technology stack icons (React, Node.js, etc.)
+#### Company Photos
+- [ ] **Team member photos** (14 individual photos)
+  - Consistent style: same lighting, background, framing
+  - Neutral/professional background (solid color or gradient)
+  - High resolution (minimum 800x800px, square format preferred)
+  - Names for each photo
+- [ ] **Office/workspace photos** (3-5 photos, optional but recommended)
+  - Show team culture and environment
+  - High resolution
 
-### Videos/Animations
-- [ ] Optional: Background video loop (subtle, abstract)
-- [ ] Optional: Project demo videos/GIFs
-- [ ] Optional: Team intro video
+#### Portfolio & Projects
+- [ ] **Project screenshots** (minimum 10-15 projects, high-res)
+  - Desktop screenshots (1920x1080 or higher)
+  - Mobile screenshots (if applicable)
+  - Brief project descriptions for each
+  - Technologies used per project
+- [ ] **Project videos/GIFs** (optional but powerful)
+  - 5-10 second demos showing key features
+  - MP4 or GIF format
 
-### Graphics
-- [ ] Logo (SVG, multiple variations)
-- [ ] Logo mark/icon (SVG)
-- [ ] Favicon set (multiple sizes)
-- [ ] OG image for social sharing
-- [ ] Email signature graphics
+#### Client & Partner Assets
+- [ ] **Client logos** (SVG preferred, minimum 10)
+  - Transparent background
+  - High resolution if PNG
+  - Permission to display publicly
+- [ ] **Partner logos** (SVG preferred, minimum 5)
+  - Same requirements as client logos
+- [ ] **Testimonials** (3-5 client testimonials)
+  - Written testimonial text
+  - Client name and company
+  - Client photo (optional but recommended)
+  - Permission to display
+
+#### 3D Models (Critical for Hero Section)
+- [ ] **Chess King** (GLTF/GLB format)
+  - High-poly model (5K-15K polygons)
+  - Gold/brass material
+  - Clean UV mapping
+- [ ] **Chess Queen** (GLTF/GLB format)
+  - High-poly model (5K-15K polygons)
+  - White/ivory material
+  - Clean UV mapping
+- [ ] **Chess Knight** (GLTF/GLB format)
+  - High-poly model (5K-15K polygons)
+  - Gold/brass material
+  - Clean UV mapping
+
+**Note on 3D Models:** If you don't have custom chess models, I can use free/open-source chess piece models as placeholders initially, but custom models will significantly elevate the premium feel.
+
+#### Content
+- [ ] **FAQ answers** (currently only questions exist on the site)
+  - Answers for all 5 questions currently displayed
+- [ ] **Team member bios** (optional but recommended)
+  - 2-3 sentence bio per team member
+  - LinkedIn/GitHub links (optional)
+
+---
+
+### ✅ Assets I CAN Obtain/Create
+These are generic or standard assets I can source, create, or design without your direct input.
+
+#### Stock/Generic Images
+- [x] Hero background texture (subtle noise/grid patterns)
+- [x] Abstract gradient backgrounds
+- [x] Particle effect textures
+- [x] Abstract technology patterns
+
+#### Icons & UI Elements
+- [x] **Service icons** (6 icons: web, mobile, AI, design, ecommerce, consulting)
+  - I'll create custom SVG icons matching your brand
+- [x] **Process/methodology icons** (6 icons: discovery, strategy, design, development, launch, support)
+  - Chess-themed where appropriate
+- [x] **Social media icons** (styled set)
+  - Facebook, LinkedIn, Twitter, Instagram, etc.
+- [x] **Navigation icons** (hamburger, close, arrows, etc.)
+- [x] **Technology stack icons** 
+  - React, Node.js, Next.js, MongoDB, etc.
+  - Standard official logos (free to use)
+
+#### Visual Design Elements
+- [x] **World map vector** (client locations visualization)
+  - Custom SVG with dot/connection style
+  - Highlighted countries: Belgium, USA, Spain, Romania, UK, Ireland
+- [x] **Device mockups** (laptop, phone, tablet)
+  - Standard device frames for showcasing projects
+  - I'll create these as SVG/PNG templates
+
+#### 3D Assets (Backup/Supplementary)
+- [x] **Abstract geometric shapes** (optional background elements)
+- [x] **Low-poly environment elements** (optional)
+- [x] **Free chess piece models** (placeholder if custom models not provided)
+  - Available from sources like Sketchfab, TurboSquid (free tier)
+  - Lower quality than custom, but functional
+
+#### Videos & Motion Graphics
+- [x] **Background video loop** (subtle, abstract)
+  - Particle animations, gradient shifts
+  - Created with CSS/WebGL
+- [x] **Loading animations**
+  - Chess-themed spinners/loaders
+
+#### Social & Marketing
+- [x] **OG image** for social sharing (1200x630px)
+  - I'll design this based on your brand assets
+- [x] **Email signature graphics**
+  - HTML template with logo
+
+#### Typography
+- [x] **Font files** (self-hosted for performance)
+  - Google Fonts: Inter, Space Grotesk, JetBrains Mono
+  - Downloaded and optimized
+
+#### Design System Assets
+- [x] **Color palette documentation**
+- [x] **Spacing and grid system**
+- [x] **Component library design** (buttons, cards, forms, etc.)
+- [x] **Animation timing/easing standards**
+
+---
+
+### 📊 Asset Priority Matrix
+
+**Must Have Before Development:**
+1. Logo files (all variations)
+2. Team photos
+3. At least 5-6 project screenshots
+4. Client/partner logos (5-10 minimum)
+5. 3D chess pieces (or approval to use placeholders)
+
+**Nice to Have:**
+1. Office photos
+2. Team bios
+3. Project videos
+4. Custom 3D chess models (vs free alternatives)
+5. Testimonials with photos
+
+**I Can Handle:**
+1. All icons and UI elements
+2. Background textures and patterns
+3. Device mockups
+4. Social media graphics
+5. World map visualization
+6. Typography and fonts
+7. Animation design
+
+---
+
+### 📝 How to Provide Assets
+
+**Preferred Formats:**
+- **Logos:** SVG (vector) + PNG (raster backup)
+- **Photos:** JPG or PNG, minimum 1200px width
+- **3D Models:** GLTF or GLB format
+- **Icons:** SVG
+- **Videos:** MP4 (H.264) or GIF
+
+**Delivery Method:**
+- Upload to Google Drive or Dropbox folder
+- Share link with me
+- Clearly label files (e.g., "team-bogdan-posedaru.jpg", "logo-full-color.svg")
+
+**Naming Convention:**
+```
+brand/
+  logo-full-color.svg
+  logo-monochrome.svg
+  logo-dark-bg.svg
+  logo-icon.svg
+  
+team/
+  team-tiberiu-georgescu.jpg
+  team-victor-ocnarescu.jpg
+  team-bogdan-posedaru.jpg
+  [etc]
+  
+projects/
+  project-superliga-desktop.png
+  project-superliga-mobile.png
+  project-[name]-desktop.png
+  [etc]
+  
+clients/
+  client-[company-name].svg
+  
+3d/
+  chess-king.glb
+  chess-queen.glb
+  chess-knight.glb
+```
 
 ---
 
